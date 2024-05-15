@@ -1,0 +1,20 @@
+{
+  "name": "natsjsclient",
+  "version": "1.0.0",
+  "description": "nats js client created while following the example on youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nats",
+    "js",
+    "client",
+    "pubsub"
+  ],
+  "author": "Amjad Abujamous",
+  "license": "ISC",
+  "dependencies": {
+    "nats": "^2.25.0"
+  }
+}
