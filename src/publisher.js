@@ -6,7 +6,7 @@ const main = async () => {
 
     const sc = StringCodec();
 
-    nc.publish("hello", sc.encode("Hello NATS to two subscribers!"));
+    nc.publish("hello", sc.encode("Hello NATS!"));
     await nc.drain();
 };
 
