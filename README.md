@@ -10,7 +10,10 @@ Demonstrate the ability to use [NATS](https://nats.io/) Pub/Sub in distributed s
 3. Hit `npm install` on a terminal window in the project root.
 4. Run `node subscriber.js` and keep it running.
 5. Open a new terminal window and run `publisher.js`.
-6. Go back to the subsriber terminal window and confirm receiving the published message.
+6. Go back to the subscriber terminal window and confirm receiving the published message.
+
+## Interoperability
+There is [another repository](https://github.com/glorious73/nats_csharp_pubsub) that has a .NET client to NATS which has a subscriber that can receive messages from this one.
 
 ## References
 - [NATS Documentation](https://docs.nats.io/nats-concepts/subjects).
